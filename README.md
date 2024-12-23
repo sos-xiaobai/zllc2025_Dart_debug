@@ -1,5 +1,55 @@
 # zllc2025_Dart_debug
 2025赛季飞镖调试上位机程序V1.1发布！！！
 
-![mainwindow](https://github.com/sos-xiaobai/zllc2025_Dart_debug/blob/main/pictures/mainwindow.png?raw=true)
+# 软件开发日志
+
+## 项目概览
+
+- **项目名称**: ZLLC实验室2025赛季飞镖机器人上位机调试软件
+- **开发周期**: 2024/12/21 至今 
+
+- **开发人员**: 小泽
+
+## 变更日志
+
+### V1.1 - 2024/12/22
+
+![v1.1](https://github.com/sos-xiaobai/zllc2025_Dart_debug/blob/main/pictures/v1.1.png?raw=true)
+
+#### 新增功能
+- 实现用户自选COM口
+- 实现预瞄，上膛，装弹等基本控制指令
+- 实现预瞄，上膛进度条
+- 实现当前拉力，YAW实时显示
+- 实现调试信息窗口实时显示
+- 实现连接状态指示
+
+#### 修复问题
+- 暂无
+
+#### 改进
+- 暂无
+
+#### 已知问题
+- 提供了数据导出的UI但并未实现
+- QTSeralport初始化开启串口导致进程卡死（出现在刚进入程序时，频率为偶发）
+- QTSeralport接收读取数据不连续，存在接收错误
+
+### 1.2 - 2024/12/23
+
+![v1.2](https://github.com/sos-xiaobai/zllc2025_Dart_debug/blob/main/pictures/v1.2.png?raw=true)
+
+#### 新增功能
+- 暂无
+
+#### 修复问题
+- 修复QTSeralport接收读取数据不连续的问题，接收帧率大幅提高！！！
+
+#### 改进
+- 取消了YAW进度条
+- 调整拉力进度条的显示
+
+#### 已知问题
+- 提供了数据导出的UI但并未实现
+- QTSeralport初始化开启串口导致进程卡死（出现在刚进入程序时，频率为偶发）
 
