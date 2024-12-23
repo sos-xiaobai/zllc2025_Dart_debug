@@ -35,7 +35,7 @@
 - QTSeralport初始化开启串口导致进程卡死（出现在刚进入程序时，频率为偶发）
 - QTSeralport接收读取数据不连续，存在接收错误
 
-### 1.2 - 2024/12/23
+### V1.2 - 2024/12/23
 
 ![v1.2](https://github.com/sos-xiaobai/zllc2025_Dart_debug/blob/main/pictures/v1.2.png?raw=true)
 
